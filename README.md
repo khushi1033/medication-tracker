@@ -1,18 +1,6 @@
-# CSE264 Final Project- Team Dino - Do-It-Daily
+# CSE264 Final Project
 
 This is a tracker for medication. It tracks medication info, sends alerts for taking/refilling/expiring medication. 
-
-# Final Project
-## Description
-### Application Name
-Do-It-Daily
-
-### Team Members
-* Brynna Morris -- Frontend A
-* Emma Closter -- Frontend B
-* Khushi Patel -- API handling
-* Neha Paras -- Backend A
-* Sera Agostinelli -- Backend B
 
 ### Function Application Description
 The app is designed as a calendar app for tracking different medications. Set up through the Nylas API, the app can sign in users through Google OAuth and pair their Google Calendar to their account on our application. The user information is also directed to a database in MongoDB modeled with mongoose. When users create a medication they can add in when they want their reminder, name it, add a description, and add other pertinent information like dosage, total doses in the prescription, and total doses that have already been taken to help facilitate medication tracking. The extra information unused in the Google Calendar API is separated and only stored in the MongoDB database. The application only shows medication reminders for the next 7 days but users can upgrade to premium and see all medication reminders. 
