@@ -1,4 +1,4 @@
-# CSE264 Final Project
+# Do-It-Daily
 
 This is a tracker for medication. It tracks medication info, sends alerts for taking/refilling/expiring medication. 
 
